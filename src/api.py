@@ -37,7 +37,7 @@ class HH(AbstractAPI):
             print(f"Ошибка подключения: {response.status_code}")
 
     def get_vacancies(self, keyword: str) -> List[Dict[str, Any]]:
-        """Получение вакансий по ключевому слову"""
+        """Получение вакансий по ключевому слову."""
         self._params['text'] = keyword
         self._vacancies = []  # Сброс перед загрузкой
         self.connect()  # Проверяем соединение при выполнении запроса
