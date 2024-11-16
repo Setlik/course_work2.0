@@ -10,7 +10,7 @@ class Vacancy:
         self.description = description
 
     def validate_salary(self, salary: float) -> bool:
-        """Валидация значения зарплаты."""
+        """Валидация значения зарплаты"""
         return salary >= 0
 
     def __lt__(self, other):

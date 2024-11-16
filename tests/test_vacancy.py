@@ -24,8 +24,7 @@ def test_vacancy_description(mock_vacancies):
 
 
 def test_no_salary():
-    vacancy = \
-        {
+    vacancy = {
             "id": "111025346",
             "name": "Помощник повара",
             "salary": None,

@@ -5,7 +5,7 @@ import os
 
 
 class AbstractFileWorker(ABC):
-    """Абстрактный класс для работы с файлами."""
+    """Абстрактный класс для работы с файлами"""
 
     @abstractmethod
     def load(self) -> List[Dict[str, Any]]:
